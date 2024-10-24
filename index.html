@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tutorial</title>
+    <style>
+        .alert {
+            color: aqua;
+
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="des">Our Solar System</p>
+    <script>
+        let h1 = document.createElement('h1');
+        h1.className = "alert";
+        h1.innerHTML = "<h1>Our Solar System</h1>"
+        document.body.prepend(h1);
+
+        let des = document.getElementById("des");
+        des.innerHTML = "The solar system consists of a sun and 9 planets";
+    </script>
+
+
+</body>
+
+</html>
